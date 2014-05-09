@@ -4,7 +4,7 @@
         
         public function index() {
             
-            $this->set('infos',$this->Info->find('all', array('conditions' => array('id'=>array(1,3,4)))));
+            $this->set('infos',$this->Info->find('all', array('conditions' => array('id'=>array(1,4)))));
             
         }
     }
